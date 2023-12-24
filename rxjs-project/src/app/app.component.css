@@ -1,0 +1,13 @@
+.main-container{
+  display: flex;
+  height: 100vh;
+}
+nav-component{
+  border-right: 2px solid black;
+  margin-right: 50px;
+  width: 20%;
+}
+right-dashboard{
+  /* border: 2px solid blue; */
+  width: 70%;
+}
