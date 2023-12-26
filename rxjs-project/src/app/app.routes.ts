@@ -3,6 +3,7 @@ import { HomeComponent } from './dashboard/home.component';
 import { Tutorial1Component } from './dashboard/practice001.component';
 import { Tutorial2Component } from './dashboard/practice002.component';
 import { Tutorial3Component } from './dashboard/practice003.component';
+import { Tutorial4Component } from './dashboard/practice004.component';
 
 
 export const routes: Routes = [
@@ -11,5 +12,7 @@ export const routes: Routes = [
   {path:"tutorial1",component:Tutorial1Component},
   {path:"tutorial2",component:Tutorial2Component},
   {path:"tutorial3",component:Tutorial3Component},
+  {path:"tutorial4",component:Tutorial4Component},
+
   {path:"", redirectTo:'/home', pathMatch:'full'}
 ];
