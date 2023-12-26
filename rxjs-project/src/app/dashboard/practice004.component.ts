@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { Subscription, interval } from "rxjs";
 
 @Component({
-  selector:"tutorial3",
+  selector:"tutorial4",
   standalone: true,
   template:`
   <h1>8. Cancelling the Subscribed Observable execution using the Subscription unsubscribe method - RxJS</h1>
@@ -17,12 +17,12 @@ export class Tutorial4Component implements OnInit{
   ngOnInit(): void {
    const newObseevAble$=interval(1000);
    this.timerSubscription=newObseevAble$.subscribe(data=>{
-    console.log(new Date().toLocaleTimeString()+"value is "+ data);
+    console.log(new Date().toLocaleTimeString()+" value is tutorial4"+ data);
    })
 
   }
   cancellingSubscription(){
-    console.log('You have canceled the subscription of  newObseevAble$');
+    console.log('You have canceled the subscription of  newObseevAble$ tutorial4');
 
     this.timerSubscription.unsubscribe();
   }
