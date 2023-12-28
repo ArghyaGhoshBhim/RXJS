@@ -9,7 +9,7 @@ import { Observable, Subscription, buffer, fromEvent, interval, tap } from "rxjs
   <h3>Component Name: (practice008.component.ts)</h3>
   <h3>Check console</h3>
   <button (click)="closeAllSubscription()">Close all Subscription</button>
-  <h2>Buffet</h2>
+  <h2>Buffer</h2>
   <a href="https://rxjs.dev/api/operators/buffer" target="_blank">Documentation</a>
   <p>First click on the below button</p>
   <button (click)="startInterval()">Click to startInterval</button>
