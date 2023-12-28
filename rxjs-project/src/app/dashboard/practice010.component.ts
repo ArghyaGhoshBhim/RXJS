@@ -1,5 +1,5 @@
-import { AfterViewInit, Component } from "@angular/core";
-import { Observable, Subscription, buffer, bufferCount, bufferTime, fromEvent, interval, tap } from "rxjs";
+import {  Component } from "@angular/core";
+import { Subscription,bufferTime,  interval } from "rxjs";
 
 @Component({
   selector:"tutorial10",
