@@ -1,6 +1,6 @@
 .main-container{
   display: flex;
-  height: 100vh;
+  height: 150vh;
 }
 nav-component{
   border-right: 2px solid black;
