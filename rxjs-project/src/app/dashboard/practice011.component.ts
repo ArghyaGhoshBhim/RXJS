@@ -6,7 +6,7 @@ import { Observable, Subscription, bufferToggle, fromEvent, interval, take, tap 
   standalone: true,
   template:`
   <h1>17. BufferToggle Operator. Learn RxJS transformation operator BufferToggle - RxJS</h1>
-  <h3>Component Name: (practice010.component.ts)</h3>
+  <h3>Component Name: (practice011.component.ts)</h3>
   <h3>Check console</h3>
   <button (click)="closeAllSubscription()">Close all Subscription</button>
   <h2>BufferToggle</h2>
