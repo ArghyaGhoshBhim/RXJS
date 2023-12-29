@@ -19,6 +19,7 @@ import { Tutorial16Component } from './dashboard/practice016.component';
 import { Tutorial17Component } from './dashboard/practice017.component';
 import { Tutorial18Component } from './dashboard/practice018.component';
 import { Tutorial19Component } from './dashboard/practice019.component';
+import { Tutorial20Component } from './dashboard/practice020.component';
 
 
 export const routes: Routes = [
@@ -43,6 +44,8 @@ export const routes: Routes = [
   {path:"tutorial17",component:Tutorial17Component},
   {path:"tutorial18",component:Tutorial18Component},
   {path:"tutorial19",component:Tutorial19Component},
+  {path:"tutorial20",component:Tutorial20Component},
+
 
 
 
