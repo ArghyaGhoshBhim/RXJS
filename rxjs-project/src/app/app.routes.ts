@@ -14,6 +14,7 @@ import { Tutorial11Component } from './dashboard/practice011.component';
 import { Tutorial12Component } from './dashboard/practice012.component';
 import { Tutorial13Component } from './dashboard/practice013.component';
 import { Tutorial14Component } from './dashboard/practice014.component';
+import { Tutorial15Component } from './dashboard/practice015.component';
 
 
 export const routes: Routes = [
@@ -33,6 +34,8 @@ export const routes: Routes = [
   {path:"tutorial12",component:Tutorial12Component},
   {path:"tutorial13",component:Tutorial13Component},
   {path:"tutorial14",component:Tutorial14Component},
+  {path:"tutorial15",component:Tutorial15Component},
+
 
 
 
