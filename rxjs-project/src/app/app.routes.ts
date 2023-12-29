@@ -12,6 +12,7 @@ import { Tutorial9Component } from './dashboard/practice009.component';
 import { Tutorial10Component } from './dashboard/practice010.component';
 import { Tutorial11Component } from './dashboard/practice011.component';
 import { Tutorial12Component } from './dashboard/practice012.component';
+import { Tutorial13Component } from './dashboard/practice013.component';
 
 
 export const routes: Routes = [
@@ -29,6 +30,8 @@ export const routes: Routes = [
   {path:"tutorial10",component:Tutorial10Component},
   {path:"tutorial11",component:Tutorial11Component},
   {path:"tutorial12",component:Tutorial12Component},
+  {path:"tutorial13",component:Tutorial13Component},
+
 
 
  {path:"", redirectTo:'/home', pathMatch:'full'}

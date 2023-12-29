@@ -1,5 +1,5 @@
 import {  Component } from "@angular/core";
-import { Subscription,bufferTime,  interval } from "rxjs";
+import { Subscription,bufferTime,  interval, tap } from "rxjs";
 
 @Component({
   selector:"tutorial10",
@@ -12,7 +12,7 @@ import { Subscription,bufferTime,  interval } from "rxjs";
   <h2>bufferTime</h2>
   <a href="https://rxjs.dev/api/operators/bufferTime" target="_blank">Documentation</a>
   <p>First click on the below button</p>
-  <h3>check bufferCount with one parameter bufferTime(2000, 2000) (change this param vlaue and check)</h3>
+  <h3>check bufferCount with one parameter bufferTime(2000) (change this param vlaue and check)</h3>
   <button  (click)="startIntervalWithOnePramInBufferCount()" [disabled]="disableStartInterval1">Click to startInterval with one bufferTime</button>
   <h3>check bufferCount with two parameter bufferTime(2000, 2000) (change this param vlaue and check)</h3>
   <button  (click)="startIntervalWithTwoPramInBufferCount()" [disabled]="disableStartInterval2">Click to startInterval with two bufferTime</button>
@@ -40,7 +40,8 @@ export class Tutorial10Component{
   startIntervalWithTwoPramInBufferCount(){
 //bufferContent with two parameter bufferTime(2000, 1000)
 this.disableStartInterval2=true;
-this.subscription2 = interval(1000).pipe(bufferTime(2000, 2000)).subscribe(data=>{
+this.subscription2 = interval(1000).pipe(tap(i=>console.log("tutorial10: with two parameter tap() ", i)
+),bufferTime(2000, 5000)).subscribe(data=>{
   console.log("tutorial10: with two parameter ", data)
 })
 }

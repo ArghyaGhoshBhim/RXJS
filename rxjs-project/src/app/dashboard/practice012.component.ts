@@ -6,11 +6,13 @@ import { Subscription, bufferWhen, interval, tap } from "rxjs";
   standalone:true,
   template:`
    <h1>18. RxJS BufferWhen Operators. Learn RxJS Transformation Operator BufferWhen - RxJS</h1>
-  <h3>Component Name: (practice011.component.ts)</h3>
+  <h3>Component Name: (practice012.component.ts)</h3>
   <h3>Check console</h3>
   <button (click)="closeAllSubscription()">Close all Subscription</button>
   <h2>bufferWhen</h2>
   <a href="https://rxjs.dev/api/operators/bufferWhen" target="_blank">Documentation</a>
+
+
   `
 })
 export class Tutorial12Component implements OnInit{
