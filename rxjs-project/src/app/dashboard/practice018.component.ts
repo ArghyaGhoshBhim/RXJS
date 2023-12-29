@@ -10,7 +10,7 @@ import { Subscription, interval, of, skipLast, tap } from "rxjs";
   <h3>Component Name: (practice018.component.ts)</h3>
   <h3>Check console</h3>
   <button (click)="closeAllSubscription()">Close all Subscription</button>
-  <h1>Skip</h1>
+  <h1>SkipLast</h1>
   <a href="https://rxjs.dev/api/operators/skipLast" target="_blank">Documentation</a>
   <h3>Start timer first and check console</h3>
 
