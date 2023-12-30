@@ -44,10 +44,12 @@ export class Tutorial22Component {
   distictUntilChanged3(){
     const employees=[
       {id:1, name:"name3"},
+      {id:3, name:"name"},
       {id:1, name:"arghyname2"},
       {id:2, name:"name1"},
-      {id:3, name:"name"},
       {id:4, name:"name"},
+      {id:5, name:"name"},
+
     ]
     // this.subscriptionObs3=from(employees).pipe(distinctUntilChanged((prev, curr)=>{
     //   return curr.name==prev.name;

@@ -9,7 +9,7 @@ import { Subscription, distinct, from, of } from "rxjs";
   <h3>Component Name: (practice021.component.ts)</h3>
   <h3>Check console</h3>
   <button (click)="closeAllSubscription()">Close all Subscription</button>
-  <h1>Distinct</h1>
+  <h1>Distinct(depends on last emited value)</h1>
   <a href="https://rxjs.dev/api/operators/distinct" target="_blank">Documentation</a>
   <h3>Start timer first and check console</h3>
   <button (click)="startDistinct1()">strat distinct for observable of number</button>(will remove all duplicate)<br><br>
