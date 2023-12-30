@@ -23,6 +23,7 @@ import { Tutorial20Component } from './dashboard/practice020.component';
 import { Tutorial21Component } from './dashboard/practice021.component';
 import { Tutorial22Component } from './dashboard/practice022.component';
 import { Tutorial23Component } from './dashboard/practice023.component';
+import { Tutorial24Component } from './dashboard/practice024.component';
 
 
 export const routes: Routes = [
@@ -51,8 +52,6 @@ export const routes: Routes = [
   {path:"tutorial21",component:Tutorial21Component},
   {path:"tutorial22",component:Tutorial22Component},
   {path:"tutorial23",component:Tutorial23Component},
-
-
-
+  {path:"tutorial24",component:Tutorial24Component},
    {path:"", redirectTo:'/home', pathMatch:'full'}
 ];
