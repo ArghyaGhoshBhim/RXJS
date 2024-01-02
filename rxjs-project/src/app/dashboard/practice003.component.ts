@@ -27,10 +27,6 @@ export class Tutorial3Component implements OnInit{
       console.log(data);
     })
     console.log("After calling the Observable");
-
-
-
-
   }
 
 }
